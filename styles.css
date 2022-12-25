@@ -36,11 +36,12 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-bottom: 0.2em;
 }
 
 .container__botao {
-    background-color: var(--botao--azul); /* cor de fundo botão*/
-    border-radius: 5px; /* arredonda as bordas*/
+    background-color: var(--botao--azul); /*cor de fundo botão*/
+    border-radius: 5px; /*arredonda as bordas*/
     padding: 1em; /* margen interna*/
     color: var(--branco--principal);
     display: block;
@@ -71,7 +72,7 @@ body {
 }
 
 .container__caixa {
-    margin: 0 6em;/*primeiro valor siginificar topo e baixo segundo valor direita e esquerda*/
+    margin: 0 6em;
 }
 
 .secundario__imagem {
@@ -106,13 +107,13 @@ body {
 .dispositivos__lista {
     display: flex;
     justify-content: center;
-    list-style-type: none;/*tira os pontos da lista*/
+    list-style-type: none;
     margin: 5em 0;
 }
 
 
 .dispositivos {
-    text-align: center;/*pegar todos os elementos e centralizar do container*/
+    text-align: center;
 }
 
 .dispositivos__titulo {
@@ -211,9 +212,4 @@ body {
     margin-bottom: 1em;
    }
 }
-
-
-
-    
-
 
