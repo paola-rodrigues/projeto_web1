@@ -36,7 +36,8 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.1em;
+  
 }
 
 .container__botao {
@@ -82,6 +83,7 @@ body {
 .secundario {
     align-items: center;
     margin: 0 10em;
+    
 }
 .descricao__titulo {
     font-weight: 700;
@@ -201,7 +203,7 @@ body {
         text-align: center;
     }
    .secundario__imagem {
-    width: 35vw;
+    width: 50vw;
    }
 
    .descricao__titulo {
