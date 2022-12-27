@@ -3,7 +3,6 @@
     --fonte-familia-logo: 'Pacifico', cursive;
 
     --fonte-peso-input: 300;
-
     --fonte-tamanho-logo: 28px;
     --fonte-tamanho-cartao-titulo: 28px;
     --fonte-tamanho-input-label: 20px;
@@ -14,7 +13,6 @@
     --fonte-tamanho-modal-botao: 28px;
     
     --cor-primaria: #0071ea;
-   /*  --cor-secundaria: #d6eaff; */
     --cor-secundaria: #66d49c;
     --cor-contraste-escuro: #4D4D4D;
     --cor-contraste-claro: #fff;
@@ -122,6 +120,7 @@ body {
     font-family: var(--fonte-familia-logo);
     font-size: var(--fonte-tamanho-logo);
     margin-bottom: 1rem;
+    color: var(--cor-contraste-claro)
 }
 
 .cadastro-cartao {
@@ -135,9 +134,7 @@ body {
     display: block;
     width: 3.5rem;
     height: 3.5rem;
-
     margin-bottom: 1rem;
-
     background-image: url(../img/checkmark.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -145,6 +142,28 @@ body {
 
 .cadastro-cartao__titulo {
     max-width: 20rem;
+}
+
+.cartao__titulo {
+    font-size: var(--fonte-tamanho-cartao-titulo);
+    margin-bottom: 1rem;    
+    color: var(--cor-contraste-escuro);
+    font-weight: bold;
+}
+
+.botao {
+    display: block;
+    background-color: var(--cor-primaria);
+    border-radius: 7px;
+    width: 100%;
+    margin-top: 1rem;
+    max-width: 20rem;
+    padding: 1.125rem;
+    box-sizing: border-box;
+    color: var(--cor-contraste-claro);
+    font-size: var(--fonte-tamanho-botao);
+    align-self: center;
+    text-align: center;
 }
 
 
