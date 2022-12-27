@@ -1,3 +1,4 @@
+/*VARIÁVEIS*/
 :root{
     --branco-principal: #FFFFFF;
     --cinza-secundario: #2c4d56;
@@ -9,6 +10,7 @@
     --cor-fundo-secundario: #00030C;
 }
 
+/*RESET ESTILOS*/
 *{
     margin: 0;
     padding: 0;
@@ -21,7 +23,6 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
-
 
 .principal{
     background-image: url("../img/Frame.png");
@@ -213,4 +214,3 @@ body {
     margin-bottom: 1em;
    }
 }
-
